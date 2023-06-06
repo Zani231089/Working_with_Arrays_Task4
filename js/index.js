@@ -8,6 +8,8 @@ logVehicle = () => {
     let registration = document.getElementById("registration").value;
     let condition = document.getElementById("condition").value;
 
-    if(){}
+    var vehicleArray = [type, make, model, registration, condition];
+
+    console.log(vehicleArray)
 }
 
